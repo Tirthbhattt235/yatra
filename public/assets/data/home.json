@@ -1,0 +1,20 @@
+{
+    "dropdown": [
+        {
+            "id":1,
+            "name":"ahmedabad"
+        },
+        {
+            "id":2,
+            "name":"ahmedabad"
+        },
+        {
+            "id":3,
+            "name":"ahmedabad"
+        },
+        {
+            "id":4,
+            "name":"ahmedabad"
+        }
+    ]
+}
