@@ -27,14 +27,24 @@ export default function index() {
           <>
             <Section className="d-flex element-container  flex-row  column-gap-4 row-gap-4 flex-wrap justify-content-center align-items-center">
               {data.map((item,) => (
-                <Blog className=" col-3 overflow-hidden" key={item.id}>
-                  <div className="img-container overflow-hidden">
-                    <Image src={item.image} alt="hi " height={400} width={400} className="object-contain w-100"></Image>
+                  <Blog className=" col-3 overflow-hidden" key={item.id}>
+                  
+                  <div className="img-container overflow-hidden border-r-4">
+                    <Image src={item.image} alt="hi " height={400} width={400} className="object-contain w-100 border-r-4"></Image>
                   </div>
-                  <div className="text">
-                    
-                  </div>
+                  <h1 className="title m-0 mt-2 mb-2 ">
+                  {item.title}
+                  </h1>
+                  <p className="text m-0 mt-2 mb-2">
+                  {item.description}
+                  </p>
+                  <Link href={item.slug} className="m-0 mt-2 mb-2">
+                  <span>
+                    read more
+                  </span>
+                  </Link>
                 </Blog>
+                
 
               ))}
 

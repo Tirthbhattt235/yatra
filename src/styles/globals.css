@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: 'Poppins' !important;
+}
 @font-face {
   font-family: 'Poppins';
   src: url('../../public/assets//fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
