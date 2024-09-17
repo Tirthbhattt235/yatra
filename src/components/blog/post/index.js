@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function BlogPost() {
   const post = {
     title: "Static Blog Post Title",
-    image: "/assets/img/blog/blog-img.jpg",
+    image: "/assets/img/blog/blog-1.jpg",
     author: "John Doe",
     date: "September 17, 2024",
     content: `
@@ -14,16 +14,10 @@ export default function BlogPost() {
     `,
     comments: [
       {
-        name: "Alice",
-        avatar: "/assets/img/avatar/avatar1.jpg",
+        name: "Dhaval Pithadiya",
+        avatar: "/assets/img/avatar/comments-1.jpg",
         date: "September 10, 2024",
-        content: "This is a comment on the blog post.",
-      },
-      {
-        name: "Bob",
-        avatar: "/assets/img/avatar/avatar2.jpg",
-        date: "September 12, 2024",
-        content: "Another comment about the post.",
+        content: "Excellence Content provided about the place",
       },
     ],
   };
