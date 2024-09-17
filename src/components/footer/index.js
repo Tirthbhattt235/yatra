@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-6">
                 <h4>Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <p>Subscribe to our newsletter for getting latest updates related to Indian Heriatage and Cultural</p>
               </div>
               <div className="col-lg-6">
                 <form action="" method="post">
@@ -31,37 +31,35 @@ export default function Footer() {
                 <ul>
                   <li><i className="bx bx-chevron-right"></i> <Link href="#">Home</Link></li>
                   <li><i className="bx bx-chevron-right"></i> <Link href="#">About us</Link></li>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Services</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Contact US</Link></li>
                   <li><i className="bx bx-chevron-right"></i> <Link href="#">Terms of service</Link></li>
                   <li><i className="bx bx-chevron-right"></i> <Link href="#">Privacy policy</Link></li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>Popular Places in Gujarat</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Web Design</Link></li>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Web Development</Link></li>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Product Management</Link></li>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Marketing</Link></li>
-                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Graphic Design</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Somanath Mandir</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Dwarka</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Girnar</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Abu Ambaji</Link></li>
+                  <li><i className="bx bx-chevron-right"></i> <Link href="#">Takhteswar</Link></li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022<br />
-                  United States <br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  GEC Bhavnagar <br /><br />
+                  <strong>Phone:</strong> +91 8141843122<br />
+                  <strong>Email:</strong> contact@culturalpioneers.com<br />
                 </p>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-info">
                 <h3>About Cultural Pioneers</h3>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <p>We provides interactive experiences of Indian festivals and monuments with detailed exhibitions and virtual tours. It also offers a platform for learning traditional arts and crafts, with tutorials and historical information, making Indian culture easy to explore for everyone</p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
                   <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
